@@ -1,6 +1,7 @@
 body {
   background-color: blueviolet;
   width: 100%;
+  height: "hv";
   margin: 0;
   color: black;
   font-family: 'Times New Roman', Times, serif;
@@ -54,4 +55,5 @@ input[type="submit"] {
   background-color: blueviolet;
   cursor: pointer;
 }
+
 
