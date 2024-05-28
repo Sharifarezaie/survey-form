@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>survey-form</title>
+</head>
+<body>
+    <h1 id="title">Survey-Form</h1>
+    <p id="description">this is my first project in html</p>
+    <div>
+        <form id="survey-form">
+            <div>
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name"  placeholder="Enter your name" required>
+        </div>  
+        <div>
+            <label for="lname" id="lname-label">Last name</label>
+            <input type="text" id="lname" placeholder="enter your name">
+        </div> 
+        <div>
+            <label for="number" id="number-label">Phone</label>
+            <input type="number" id="number" placeholder="enter your phone" min="19" max="22">
+        </div>    
+        <div>
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="enter your email" required>
+        </div>  
+        <div>
+            <br><label for="desc">which option best describe you?</label><br>
+           <select  id="dropdown">
+                <option value="student">Student</option>
+                <option value="student">Teacher</option>
+                <option value="student">professional</option>
+                <option value="student">Other</option>
+            </select><br>
+        </div> 
+        <div>
+            <br><label for="field">which course do you prefer?</label><br>
+                <input type="radio" id="comp" name="computer" value="1">computer<br>
+                <input type="radio" id="web" name="Computer" value="2">Web development<br>
+        </labele>
+        </div>     
+        <div>
+            <br><label>Do you access to computer?</label><br>
+                <label for="time">
+            <input type="checkbox" id="time" name="time" value="time">Yes</label><br>
+            <label for="time">
+                <input type="checkbox" id="time" name="time" value="time">No</label><br>
+                <label for="time">
+                    <input type="checkbox" id="time" name="time" value="time">may be other</label><br>
+        </div>
+        <div>
+            <br><label>Any comments and suggestion</label><br>
+            <textarea id="comment" row="10" col="99"></textarea>
+        </div><input type="submit" id="submit">
+        </div>
+        </form>
+    </div>
+</body>
+</html> 
